@@ -1,0 +1,2 @@
+servais                  IN      NS     ns.servais.ephec-ti.be.
+ns.servais.ephec-ti.be.  IN      A      51.178.41.122

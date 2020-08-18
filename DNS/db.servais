@@ -1,0 +1,21 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	ns.servais.ephec-ti.be. root.servais.ephec-ti.be. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	ns.servais.ephec-ti.be.
+ns	IN	A	51.178.41.122
+web	IN	A	51.178.41.122
+sip	IN	A	51.178.41.122
+desktop IN	A 192.168.56.1  
+server	IN	A	51.178.41.122
+
+servais.ephec-ti.be. in A 51.178.41.122
+
+

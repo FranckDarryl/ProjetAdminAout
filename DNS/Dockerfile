@@ -15,4 +15,6 @@ COPY db.servais /etc/bind/
 EXPOSE 53/udp 53/tcp
 
 
-CMD ["/usr/sbin/named", "-g", "-c", "/etc/bind/named.conf.local", "-u", "bind"]
+
+WORKDIR /etc/bind 
+

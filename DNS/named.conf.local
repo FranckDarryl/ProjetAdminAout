@@ -13,3 +13,8 @@ zone "servais.ephec-ti.be" {
     type master;
     file "/etc/bind/zones/db.servais";
 };
+
+zone "41.178.51.in-addr.arpa" {
+        type master;
+        file "/etc/bind/db.51";
+};
